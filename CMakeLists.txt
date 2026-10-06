@@ -18,6 +18,7 @@ find_package(SFML 2.6 COMPONENTS graphics window system audio REQUIRED)
 add_executable(ZombieShooter
         src/main.cpp
         src/Player.cpp
+        src/CreateBackground.cpp
 )
 
 # Tells cmake where to find the header files
