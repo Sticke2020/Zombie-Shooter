@@ -20,6 +20,8 @@ add_executable(ZombieShooter
         src/Player.cpp
         src/CreateBackground.cpp
         src/TextureHolder.cpp
+        src/Zombie.cpp
+        src/CreateHorde.cpp
 )
 
 # Tells cmake where to find the header files
