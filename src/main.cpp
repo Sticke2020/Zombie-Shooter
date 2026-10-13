@@ -1,6 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include "Player.hpp"
-#include "CreateBackground.hpp"
+#include "ZombieArena.hpp"
 
 using namespace sf;
 

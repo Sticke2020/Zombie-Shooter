@@ -19,6 +19,7 @@ add_executable(ZombieShooter
         src/main.cpp
         src/Player.cpp
         src/CreateBackground.cpp
+        src/TextureHolder.cpp
 )
 
 # Tells cmake where to find the header files

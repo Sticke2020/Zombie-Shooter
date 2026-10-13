@@ -1,5 +1,5 @@
 
-#include "CreateBackground.hpp"
+#include "ZombieArena.hpp"
 
 int createBackground(VertexArray& r_VA, IntRect arena) {
     // Anything we do to r_VA we are really doing to background (in the main function)
