@@ -49,8 +49,7 @@ int main() {
     VertexArray background;
 
     // Load the texture for our background vertex array
-    Texture textureBackground;
-    textureBackground.loadFromFile("assets/graphics/background_sheet.png");
+    Texture textureBackground = TextureHolder::getTexture("assets/graphics/background_sheet.png");
 
     // Prepare the horde of zombies
     int numZombies;
